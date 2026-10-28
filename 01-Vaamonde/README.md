@@ -1,1 +1,1 @@
-sljahdkjsadasd
+Diretório destinado às aulas da professor Vaamonde.
