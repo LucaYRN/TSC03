@@ -45,13 +45,13 @@ network:
       dhcp4: false
       dhcp6: false
       match:
-        macaddress: 08:00:27:xx:xx:xx
+        macaddress: 08:00:27:89:46:28
       set-name: enp0s3
       addresses:
-        - 10.24.69.xxx/24
+        - 10.24.86.221/24
       routes:
         - to: default
-          via: 10.24.69.1
+          via: 10.24.86.1
       nameservers:
         addresses:
           - 8.8.8.8
