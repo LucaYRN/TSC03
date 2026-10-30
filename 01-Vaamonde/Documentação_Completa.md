@@ -97,16 +97,11 @@ Para corrigir a data/hora sincronizando com o NTP.br através das ferramentas na
 # 1. Configurar o fuso horário para São Paulo
 sudo timedatectl set-timezone America/Sao_Paulo
 
-# 2. Configurar o arquivo do serviço nativo de tempo
-sudo nano /etc/systemd/timesyncd.conf
-# Descomentar e alterar a linha NTP para: NTP=a.ntp.br b.ntp.br c.ntp.br
+# 2. Ativar a sincronização automática
+sudo timedatactl set-ntp true
 
-# 3. Reiniciar o serviço e forçar a ativação do NTP
-sudo systemctl restart systemd-timesyncd
-sudo timedatectl set-ntp true
-
-# 4. Validar o status da sincronização
-timedatectl timesync-status
+# 3. Validar o status da sincronização
+timedatectl status
 ```
 
 ### B. Análise de Logs do Sistema
