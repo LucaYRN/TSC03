@@ -3,7 +3,7 @@
 **Unidade Curricular:** UC8 - Planejar e executar auditoria de sistemas.
 **Data de Conclusão:** 30/10/2026
 **Docente:** Robson Vaamonde
-**Autor(a):** [Seu Nome Aqui]
+**Autor(a):** Luca Navarro
 
 Este repositório documenta todo o processo de instalação, configuração, atualização e auditoria de um servidor GNU/Linux utilizando o Ubuntu Server 26.04.1 LTS, integrado com Git, GitHub e ferramentas de IA (ChatGPT e Claude).
 
@@ -64,9 +64,8 @@ network:
 sudo netplan --debug apply
 ```
 
-> 🖼️ **Insira abaixo o print da validação da sua rede (ex: saída do `ip a` ou do netplan):**
->
-> ![Print da Configuração Final do Netplan](caminho/para/seu/print_netplan.png)
+<img width="738" height="197" alt="image" src="https://github.com/user-attachments/assets/17c31966-0252-42f1-9019-646fccf21e12" />
+
 
 ---
 
@@ -128,9 +127,8 @@ sudo journalctl -u ssh --since "today"
 sudo journalctl -u ssh | grep -E "Failed|Accepted|Invalid user"
 ```
 
-> 🖼️ **Insira abaixo o print dos relatórios de log encontrados (ex: falhas de acesso via SSH):**
->
-> ![Print da Auditoria de Logs](caminho/para/seu/print_logs.png)
+<img width="789" height="285" alt="image" src="https://github.com/user-attachments/assets/9f07bc6d-48a5-42ee-a6b1-d718d840c0e4" />
+
 
 ---
 
@@ -150,7 +148,4 @@ git commit -m "Finalização do relatório de auditoria e correção de logs"
 # Enviar os arquivos locais para o repositório remoto no GitHub
 git push
 ```
-
-> 🖼️ **Insira abaixo o print do terminal rodando o comando `git push` com sucesso no VSCode/Git Bash:**
->
-> ![Print do Comando Git Push](caminho/para/seu/print_git_push.png)
+<img width="493" height="92" alt="image" src="https://github.com/user-attachments/assets/2daa820d-7b7e-4cae-8d7f-edc555c27092" />
