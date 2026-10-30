@@ -138,7 +138,7 @@ git status
 git add .
 
 # Criar o ponto de salvamento na linha do tempo
-git commit -m "Finalização do relatório de auditoria e correção de logs"
+git commit -m "Documentação Completa das Aulas de Auditoria"
 
 # Enviar os arquivos locais para o repositório remoto no GitHub
 git push
